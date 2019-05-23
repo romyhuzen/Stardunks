@@ -1,0 +1,59 @@
+/*  
+  Class:  4A7B
+  Name:  R.Huzen
+  Purpose:  Template layout website  
+
+  mm-dd-yyyy  Description
+  -----------------  -------------------------------------------------------------------------------------------------
+  10-24-2017  initial
+*/
+
+/***************************************************
+* include the padding and border to all elements   *
+***************************************************/
+
+*{
+	box-sizing:border-box;
+}
+
+/********************
+*  Default setting  *
+********************/
+
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:10px;
+	font-size:100%;
+	font-family:'Calibri','Arial','Helvetica';
+	color:black; 
+}
+
+table, tr, th, td{
+    margin-top: 10px;
+    border-collapse: collapse;
+	border: 1px solid black;
+}
+
+a:link{
+    text-decoration: none;
+    color: white; 
+}
+    
+a:visited {
+    color: white;
+}
+
+button{ 
+    background-color: white;
+    border: 1px solid black;
+    border-radius: none;
+}
+
+.blue{
+    padding: 10px;
+    background-color: #018cfe;
+    border-radius: 20px;
+    border: none;  
+}
